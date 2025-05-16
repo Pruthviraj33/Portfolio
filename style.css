@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:#254E70;
+  color: white;
+  font-family: poppins;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+    font-weight: 600;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  background-color:#C33C54;
+}
+.right ul {
+  display: flex;
+  align-items: center;
+}
+.right ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.left {
+  font-size: 1.5rem;
+  color: black;
+ font-weight: 600;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+}
+.firstsection > div {
+  width: 30%;
+  margin: 60px;
+}
+.rightsection img {
+  width: 100%;
+  border-radius: 2rem;
+}
+.leftsection {
+  font-size: 2rem;
+}
+.color {
+  color: black;
+ font-weight: 600;
+  
+}
+#HomeHR {
+  margin-top: 35vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.work {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+#aboutHR {
+  margin: 1rem 2rem 0 2rem;
+}
+.para {
+  text-align: center;
+}
+.paradiv {
+  margin: 1rem 2rem 0 2rem;
+}
+.htmlDIV {
+  height: 10rem;
+  width: 22%;
+  background-color: lightblue;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2rem;
+  margin: 4rem 4rem;
+  border: 0.3rem black solid;
+}
+.htmlDIV img {
+  width: 55%;
+  height: 10rem;
+  border-radius: 2rem;
+}
+.langName {
+  width: 40%;
+  font-size: 1rem;
+  color: black;
+}
+#cssimg{
+  width: 55%;
+  height: 10rem;
+  border-radius: 2rem
+}
+.cssDIV{
+    height: 10rem;
+  width: 22%;
+  background-color: lightblue;
+    border: 0.3rem black solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2rem;
+  margin: 4rem 4rem;
+}
+.tools{
+  display: flex;
+  align-items: center;
+}
+#jsimg{
+   width: 56%;
+  height: 10rem;
+  border-radius: 2rem
+}
+.tools p{
+  text-align: center;
+}
+.firstheading{
+  margin: 3rem 0 0 3rem;
+}
+.htmlDIV:hover{
+  padding: 0.1rem;
+  transition: 2s;
+}
+#element{
+  color: black;
+  font-weight: 600;
+}
+.homeSection{
+  margin-top: 15rem;
+}
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  
+}
+.heading{
+  color:#C33C54;
+  font-weight: 600;
+}
+.firstproject{
+  margin: 2rem 2rem;
+  font-size: 1.4rem;
+}
+.projectimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectimg img{
+  width: 60%;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+.weatherproject{
+  margin-left: 10rem;
+  font-size: 1.2rem;
+
+}
+.wdiv{
+  display: flex;
+  align-items: center;
+}
+.wdiv i{
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  color: white  ;
+}
+.wdesc li{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.wdesc p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+.wbtn{
+  color:black;
+  background-color: #C33C54;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border-radius: 2rem;
+}
+.todoimg{
+  margin-bottom: 1rem;
+}
+.getintouch{
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
